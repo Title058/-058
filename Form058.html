@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ฟอร์มโทรศัพท์มือถือ</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="process.php" method="post">
+            <table>
+                <caption><h4>ฟอร์มเลือกโทรศัพท์มือถือ</h4></caption>
+                <tr>
+                    <td>กรอกชื่อ:</td>
+                    <td><input type="text" name="username" required></td>
+                </tr>
+                <tr>
+                    <td>กรอกนามสกุล:</td>
+                    <td><input type="text" name="lastname" required></td>
+                </tr>
+                <tr>
+                    <td>กรอกอีเมลผู้ใช้งาน:</td>
+                    <td><input type="text" name="user" required></td>
+                </tr>
+                <tr>
+                    <td>กรอกรหัสผ่าน:</td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td>รุ่นโทรศัพท์มือถือ</td>
+                    <td>
+                        <select name="phone_model" size="1">
+                            <option value="iphone_14">iPhone 14</option>
+                            <option value="samsung_galaxy_s23">Samsung Galaxy S23</option>
+                            <option value="google_pixel_8">Google Pixel 8</option>
+                            <option value="oneplus_11">OnePlus 11</option>
+                            <option value="xiaomi_mi_13">Xiaomi Mi 13</option>
+                            <option value="sony_xperia_1_iv">Sony Xperia 1 IV</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ความจุ</td>
+                    <td>
+                        <select name="storage_capacity" size="1">
+                            <option value="64">64 GB</option>
+                            <option value="128">128 GB</option>
+                            <option value="256">256 GB</option>
+                            <option value="512">512 GB</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>สี</td>
+                    <td>
+                        <input type="radio" name="color" value="black"> ดำ
+                        <input type="radio" name="color" value="white"> ขาว
+                        <input type="radio" name="color" value="blue"> น้ำเงิน
+                        <input type="radio" name="color" value="red"> แดง
+                    </td>
+                </tr>
+                <tr>
+                    <td>อุปกรณ์เสริม</td>
+                    <td>
+                        <input type="checkbox" name="accessories[]" value="case"> เคส
+                        <input type="checkbox" name="accessories[]" value="charger"> ที่ชาร์จ
+                        <input type="checkbox" name="accessories[]" value="screen_protector"> ฟิล์มกันรอย
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h4>กรุณากรอกที่อยู่</h4>
+                        <textarea name="comment" cols="50" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="ตกลง">
+                        <input type="reset" value="ยกเลิก">
+                    </td>
+                    <nav>
+                        <ul>
+                            <li><a href="file:///C:/Users/Com/Documents/%E0%B8%87%E0%B8%B2%E0%B8%99058/indek058.html">ประวัติความเป็นมา</a></li>
+                            <li><a href="C:\Users\Com\Documents\งาน058\philosophy058.html">ปรัชญา วิสัยทัศน์ พันธกิจ</a></li>
+                            <li><a href="C:\Users\Com\Documents\งาน058\Identity058.html">อัตลักษณ์และเอกลักษณ์</a></li>
+                            <li><a href="C:\Users\Com\Documents\งาน058\policy058.html">นโยบายของวิทายาลัย</a></li>
+                            <li><a href="C:\Users\Com\Documents\งาน058\executive directory058.html">ทำเนียบผู้บริหาร</a></li>
+                            <li><a href=file:///C:/Users/Com/Documents/%E0%B8%87%E0%B8%B2%E0%B8%99058/Form058.html>ฟอร์มเลือกโทรศัพท์มือถือ</a></li>
+                            <li><a href=file:///C:/Users/Com/Documents/%E0%B8%87%E0%B8%B2%E0%B8%99058/058.html>058</a></li>
+                
+                        </ul>
+                    </nav>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
